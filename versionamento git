@@ -1,0 +1,51 @@
+Versionamento git
+    trânsito entre versões.
+    sistema que grava as mudanças em um projeto por meio de snapshots.
+    intercambialidade de versões.
+    ferramenta de  compartilhamento de versões.
+
+Git ignore
+     criar um arquivo gitignore que lista de arquivos a serem ignorados no momento de geração dos commit
+     .gitignore
+
+branch
+    analogo a pequenas pastas, repartições, ramos, ou compartimentos de um projeto.
+    
+    git branch "nome nova branch"
+    cria um branch
+    
+    git branch
+    mostra os branchs e a posição atual
+    
+    git checkout "nome do branch"
+
+integrando novas branchs
+    git merge "nome da branch"
+    
+
+Fluxo Git:
+    git init
+        cria uma pasta .git no diretório do repositório
+        isso indica que um repositorio git foi inicializado
+        
+    git status
+        mostra os arquivos "untracked files"
+        são arquivos que não estão preparados para commit, mas tem modificações.
+    
+    git add
+        prepara os arquivos para receber um commit
+        ex: git add index.html
+    git rm --cached
+        desprepara os arquivos para receber um commit
+        ex:git rm --cached index.html
+    git add .
+        adiciona todos os arquivos para receber um commit
+        
+    git commit -m"mensagem"
+        executa o commit
+    git log
+        exibe os commits, datas e autores
+    
+    
+
+    
